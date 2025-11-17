@@ -241,3 +241,57 @@ https://github.com/adaptive-machine-learning/PRICAI2025/tree/main
     - Modular -> recombine modules from previous tasks.
     - Parameter Efficient Fine-tuning - weights, and modules, adapters.
 
+# Workshop 3: HIDDEN-RAD: Unlocking Causal Explanations in Medical AI and Beyond
+
+As general AI reasoning capabilities continue to advance, it remains a critical challenge to develop systems capable of articulating hidden causal reasoning and generating accurate explanations in specialized domains—a crucial aspect for building trustworthy AI. The NTCIR-18 HIDDEN-RAD challenge serves as a valuable case study in this area, focusing specifically on radiology. Building on this foundation, our workshop invites research contributions addressing causal reasoning, explanation generation, and hallucination detection across various domains. We aim to bring together researchers working on explanation frameworks, domain-specific knowledge integration, evaluation methodologies, and cross-domain applications. By sharing insights and methodologies across fields, we seek to advance the state-of-the-art in creating AI systems that can not only reach accurate conclusions but explicitly explain their reasoning in ways that domain experts find meaningful and trustworthy.
+
+Organizers:
+
+Prof. Key-Sun Choi, Konyang University, South Korea (kschoi@kaist.edu)
+YoungGyun Hahm, Teddysum Inc., South Korea
+You-Sang Cho, Konyang University, South Korea
+Jin-Dong Kim, Database Center for Life Science, Japan
+
+Website: https://sites.google.com/view/hidden-rad-2025 
+
+# Talk 1: 
+
+- Prompt engineering 
+    - System role and persona 
+    - Context for evaluation 
+    - Evaluation Checklist 
+    - Selection Task and output. 
+- nasher002 -> 1st place 
+- PRISMA-Guided reasoning
+    - Identification, Screening, Eligbility, Inclusion 
+- Preferred Reportimg Items for Systematic Reivews and Meta-Analyses
+
+# Generating and Self-Verifying Radiology Findings and Causal Reasoning 
+## Mercy (Principal ML Engineer - Microsoft Research India)
+
+- Rad-phi3-Vision-CXR @ Hidden-Rad Challenge
+- Radiology image interpretation 
+- Radiology interpretation is a structured process that integrates clinical context, radiology knowledge and differential reasoning to connect radiographic findings with diagnotstic decisions. 
+- Vision Language model for Chest X-Ray radiographs. 
+- Chest X-ray image -> Rad-Phi4-Vision-CXR -> Findings + Causal exploration 
+- Causal exploration produced clinically useful reasoning narratives that bridge descriptive findings with diagnostic decision-making.
+- Causal exploration facets
+    - Radiographic presentation 
+    - Ruling out by abscence 
+    - Clinical context 
+    - Post treatment changes 
+- NV-Reason-CXR-3B
+    - The reasonging engine generates step-by-step diagnostic analysis.
+- Synthetic dataset, rewrite reports as if a radioligist is narrating their thoughts. 
+- Training: (1) supervised fine-tuning, (2) group relative policy optimization 
+- Reward: percentage of correctly identified abnormality labels. 
+- CheXStruct automatically dervies a sequence of intermediate reasoning steps directly from chest X-rays.
+- Multi-step reasoning
+- Itegrate patient history and clinical context.
+- EMbed radiology domain knowledge explicitly. 
+- Include differential diagnosis chains.
+- Add causal scenarios fro tubes/lines.
+- Cover negative findings causality. 
+- Incorporate measurement-driven reasoning.
+- Structure reasoning templates.
+- Collect useful feedback from radiologists.
