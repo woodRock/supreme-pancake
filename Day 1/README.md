@@ -302,6 +302,11 @@ Website: https://sites.google.com/view/hidden-rad-2025
 - Blossom - internal medical reasoning model (llama3.1 (70B) based)
 - Chain of Thought (CoT)
 - Retrieval Augmented Generation (RAG)
-- Tree-of-thought (ToT)
+- Tree-of-thought (ToT) 
 
-![Tree of Thought](https://www.promptingguide.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FTOT.3b13bc5e.png&w=3840&q=75)
+> ToT maintains a tree of thoughts, where thoughts represent coherent language sequences that serve as intermediate steps toward solving a problem. This approach enables an LM to self-evaluate the progress through intermediate thoughts made towards solving a problem through a deliberate reasoning process. The LM's ability to generate and evaluate thoughts is then combined with search algorithms (e.g., breadth-first search and depth-first search) to enable systematic exploration of thoughts with lookahead and backtracking. https://www.promptingguide.ai/techniques/tot
+
+![Tree of Thought ](https://www.promptingguide.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FTOT.3b13bc5e.png&w=3840&q=75)
+
+- RadGraph: Extracting Clinical Entities and Relations from Radiology Reports
+- LLaVA Needs More Knowledge: Retrieval Augmented Natural Language Generation with Knowledge Graph for Explaining Thoracic Pathologies
