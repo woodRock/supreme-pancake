@@ -295,3 +295,13 @@ Website: https://sites.google.com/view/hidden-rad-2025
 - Incorporate measurement-driven reasoning.
 - Structure reasoning templates.
 - Collect useful feedback from radiologists.
+
+# HIDDEN-RAD Task: Using RAG and Tree-of-thought for Causual Explanation Generation
+## Youngseob Won 
+
+- Blossom - internal medical reasoning model (llama3.1 (70B) based)
+- Chain of Thought (CoT)
+- Retrieval Augmented Generation (RAG)
+- Tree-of-thought (ToT)
+
+![Tree of Thought](https://www.promptingguide.ai/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FTOT.3b13bc5e.png&w=3840&q=75)
