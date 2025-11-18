@@ -98,3 +98,20 @@ https://d-agree.com/site/en/
 - Post-intervention survey, 7 point Likert scale. 
 
 > The internet ban is yet another way for the Taliban to control women and girls. Since taking control of Afghanistan in August 2021, the Taliban have severely curtailed all physical spaces of resistance: from the streets, to universities, to workplaces.30 Sept 2025
+
+# AI Agent-Driven Worflow Optimization in Building Engineering Management: From Task Perception, Data Integration to Decision Support 
+## Xin Gong 
+
+- Building Information Modeling (BIM)
+- Intelligent systems capable of perceiving the environment and autonomously making decisions to acheive specific goals. 
+- Analytical frameowrk - decision support, data integration, task perception.
+- AI agents can provide intelligent recommendations to the workflow engine based on historical project data and business rules. 
+- Key capabilities:
+    - Anomaly detection and altering.
+    - Quick identintification of anomalies resulting from human-set errors.
+    - Provision of alerts and recommendations for new scenarios. 
+- Human-in-the-loop -> all aforementioned operations should also be subject to the second round of manual review. 
+- AI agents are capable of traversing the entire dataset more swiftly that humans and automatically identifying anomoulous data. 
+- Specialized AI agents configured to reviews national mandatory standards are deployed, with particular attnetion paid to examining the contet of modified objects and their adjacent objects. 
+- May inherit historical biases from training data, recognize repeteadly occuring human errors.
+Machine learning algorithms are being employed to enhance the precision of recognizing on-site environments and disturbances.
